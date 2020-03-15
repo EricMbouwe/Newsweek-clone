@@ -1,2 +1,2 @@
 # Newsweek-clone
-This is a Newsweek page clone build from scratch with HTML &amp; CSS and Bootstrap 4
+This is the Newsweek homepage-clone build from scratch with HTML &amp; CSS and Bootstrap 4
