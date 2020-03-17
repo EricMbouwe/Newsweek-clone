@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 /*BG-COLORS*/
@@ -13,6 +15,11 @@
 
 a {
   color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
 
 body {
@@ -27,98 +34,98 @@ body {
 .container-sm,
 .container-xl {
   max-width: 1325px;
-  padding: 20px 30px;
 }
 
 /*MOBILE STYLE*/
-@media only screen and (max-width: 991px) {
-  /*HIDDEN-CONTENTS*/
-  .hide,
-  .header-desktop-hidden {
-    display: none;
-  }
-
-  .header-mobile-hidden {
-    background-color: #f72210;
-  }
-
-  .navbar-brand {
-    width: 40%;
-    color: #fff;
-  }
-
-  .navbar svg {
-    width: 100%;
-    height: 100%;
-    max-width: 170px;
-    fill: #fff;
-  }
-
-  .navbar-middle-items {
-    width: 43%;
-  }
-
-  .navbar-md-item a {
-    width: 50%;
-    max-width: 40px;
-    font-size: 0.9em;
-    font-weight: 600;
-    letter-spacing: -0.1em;
-  }
-
-  .subscribe-btn {
-    background-color: #fff;
-    color: #f72210;
-    padding: 5px 3px;
-  }
-
-  .navbar .navbar-toggler {
-    width: 10%;
-    border: none;
-    outline: none;
-  }
-  .navbar-toggler-icon {
-    color: gray;
-  }
-
-  #navbarSupportedContent {
-  }
-
-  .navbar-nav {
-    background-color: #f4f5f6;
-  }
-
-  .navbar-nav .form-inline {
-    position: relative;
-  }
-
-  .navbar-nav .form-inline i {
-    position: absolute;
-    right: 205px;
-  }
-
-  .navbar-nav .form-control {
-    outline: none;
-    box-shadow: none;
-    border: none;
-    width: 200px;
-    background-color: inherit;
-  }
-
-  .site-content {
-    background-color: #fff;
-    padding: 1.5em 1em;
-  }
-
-  .site-content-wrapper {
-    background-color: aquamarine;
-  }
+.hide,
+.header-desktop-hidden {
+  display: none;
 }
 
-@media only screen and (min-width: 992px) {
+.header-mobile-hidden {
+  background-color: #f72210;
+}
+
+.navbar-brand {
+  width: 40%;
+  color: #fff;
+}
+
+.navbar svg {
+  width: 100%;
+  height: 100%;
+  max-width: 170px;
+  fill: #fff;
+}
+
+.navbar-middle-items {
+  width: 43%;
+}
+
+.navbar-md-item a {
+  width: 50%;
+  max-width: 40px;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: -0.1em;
+}
+
+.subscribe-btn {
+  background-color: #fff;
+  color: #f72210;
+  padding: 5px 3px;
+}
+
+.navbar .navbar-toggler {
+  width: 10%;
+  border: none;
+  outline: none;
+}
+.navbar-toggler-icon {
+  color: gray;
+}
+
+#navbarSupportedContent {
+}
+
+.navbar-nav {
+  background-color: #f4f5f6;
+}
+
+.navbar-nav .form-inline {
+  position: relative;
+}
+
+.navbar-nav .form-inline i {
+  position: absolute;
+  right: 205px;
+}
+
+.navbar-nav .form-control {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  width: 200px;
+  background-color: inherit;
+}
+
+.site-content {
+  background-color: #fff;
+  padding: 1.5em 1em;
+}
+
+.site-content-wrapper {
+  background-color: aquamarine;
+}
+
+@media screen and (min-width: 992px) {
   .header-mobile-hidden,
   .hide {
     display: none;
+  }
+
+  .header-desktop-hidden {
+    display: block;
   }
 
   .header-desktop-hidden {
@@ -131,7 +138,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: #fff;
-    padding: 5px 0;
+    padding: 0;
   }
 
   .top-header a {
@@ -146,17 +153,17 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-self: center;
     width: 30%;
-    padding: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .top-header_left .weather {
-    padding: 8px;
     font-weight: 700;
+    padding: 20px 8px 8px 25px;
   }
   .top-header_left p {
-    padding: 8px;
+    padding: 0 8px 2px 25px;
     font-weight: 400;
   }
 
@@ -167,8 +174,8 @@ body {
   }
 
   .top-header_center svg {
-    width: 80%;
-    height: 50%;
+    width: 75%;
+    height: 55%;
     fill: #fff;
   }
 
@@ -178,12 +185,12 @@ body {
     justify-content: flex-end;
     width: 30%;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1em;
     letter-spacing: -0.05em;
   }
 
   .top-header_right span {
-    margin: 0 10px 15px 0;
+    margin: 0 12px 12px 0;
   }
 
   .top-header_right .subscribe-btn {
@@ -195,13 +202,10 @@ body {
   .navbar-lg {
     background-color: #fff;
     font-weight: 600;
-    width: 100%;
-    max-width: 1325px;
   }
 
   .navbar-lg .navbar-links {
     justify-content: stretch;
-    width: 100%;
     font-size: 1.2vw;
   }
 
@@ -212,7 +216,6 @@ body {
 
   .navbar-links .nav-link {
     color: #000;
-    display: block;
   }
 
   .navbar-links .nav-link:hover {
@@ -239,9 +242,6 @@ body {
 
   .site-content {
     background-color: #fff;
-  }
-
-  .site-content-wrapper {
-    background-color: aquamarine;
+    padding: 1.5em 2em;
   }
 }
