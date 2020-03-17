@@ -196,15 +196,17 @@ body {
   .navbar-lg {
     background-color: #fff;
     font-weight: 600;
+    width: 100%;
+    max-width: 1325px;
   }
 
   .navbar-lg .navbar-links {
     justify-content: stretch;
+    width: 100%;
+    font-size: 1.2vw;
   }
 
   .navbar-links li {
-    font-size: 1.1rem;
-    letter-spacing: -0.02em;
     text-align: center;
     border-right: 1px solid #dbdbdb;
   }
