@@ -18,6 +18,7 @@ a {
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #f4f5f6;
+  font-size: 16px;
 }
 
 .container,
@@ -29,69 +30,95 @@ body {
   padding: 20px 30px;
 }
 
-/*HIDDEN-CONTENTS*/
-.hide,
-.header-desktop-hidden {
-  display: none;
-}
-
 /*MOBILE STYLE*/
-.header-mobile-hidden {
-  background-color: #f72210;
-}
+@media only screen and (max-width: 991px) {
+  /*HIDDEN-CONTENTS*/
+  .hide,
+  .header-desktop-hidden {
+    display: none;
+  }
 
-.subscribe-btn {
-  background-color: #fff;
-  color: #f72210;
-  padding: 5px 5px;
-}
-
-.navbar svg {
-  width: 100%;
-  height: 100%;
-  max-width: 170px;
-}
-
-.navbar-brand {
-  width: 40%;
-  color: #fff;
-}
-
-.navbar-middle-items {
-  width: 43%;
-}
-
-.navbar-item a {
-  width: 50%;
-  max-width: 40px;
-  font-size: 0.9em;
-  font-weight: 600;
-  letter-spacing: -0.1em; 
-}
-
-.navbar .navbar-toggler {
-  width: 10%;
-  border: 1px solid black;
-}
-.navbar-toggler-icon {
-  color: #fff;
-}
-
-.site-content {
-  background-color: #fff;
-  height: 500px;
-  padding: 25px 15px;
-}
-
-.site-content-wrapper {
-  background-color: aquamarine;
-}
-
-
-
-
-/*@media screen and (min-width: 992px) {
   .header-mobile-hidden {
+    background-color: #f72210;
+  }
+
+  .navbar-brand {
+    width: 40%;
+    color: #fff;
+  }
+
+  .navbar svg {
+    width: 100%;
+    height: 100%;
+    max-width: 170px;
+    fill: #fff;
+  }
+
+  .navbar-middle-items {
+    width: 43%;
+  }
+
+  .navbar-md-item a {
+    width: 50%;
+    max-width: 40px;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: -0.1em;
+  }
+
+  .subscribe-btn {
+    background-color: #fff;
+    color: #f72210;
+    padding: 5px 3px;
+  }
+
+  .navbar .navbar-toggler {
+    width: 10%;
+    border: none;
+    outline: none;
+  }
+  .navbar-toggler-icon {
+    color: gray;
+  }
+
+  #navbarSupportedContent {
+  }
+
+  .navbar-nav {
+    background-color: #f4f5f6;
+  }
+
+  .navbar-nav .form-inline {
+    position: relative;
+  }
+
+  .navbar-nav .form-inline i {
+    position: absolute;
+    right: 205px;
+  }
+
+  .navbar-nav .form-control {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    width: 200px;
+    background-color: inherit;
+  }
+
+  .site-content {
+    background-color: #fff;
+    height: 500px;
+    padding: 1.5em 1em;
+  }
+
+  .site-content-wrapper {
+    background-color: aquamarine;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-mobile-hidden,
+  .hide {
     display: none;
   }
 
@@ -125,7 +152,7 @@ body {
     font-size: 1.1em;
   }
 
-  .weather {
+  .top-header_left .weather {
     padding: 8px;
     font-weight: 700;
   }
@@ -143,6 +170,7 @@ body {
   .top-header_center svg {
     width: 80%;
     height: 50%;
+    fill: #fff;
   }
 
   .top-header_right {
@@ -152,57 +180,68 @@ body {
     width: 30%;
     font-weight: 600;
     font-size: 1.1em;
+    letter-spacing: -0.02em;
   }
 
   .top-header_right span {
     margin: 0 10px 15px 0;
   }
 
-  .subscribe-btn {
+  .top-header_right .subscribe-btn {
     background-color: #fff;
     color: #f72210 !important;
     padding: 5px 10px;
   }
 
-  .navbar {
+  .navbar-lg {
     background-color: #fff;
     font-weight: 600;
   }
 
-  .navbar-nav {
-    width: 100%;
-    justify-content: space-between;
+  .navbar-lg .navbar-links {
+    justify-content: stretch;
   }
 
-  .navbar-nav li {
-  }
-
-  .nav-link {
+  .navbar-links li {
+    font-size: 1.1rem;
+    letter-spacing: -0.02em;
+    text-align: center;
     border-right: 1px solid #dbdbdb;
-    color: #000 !important;
   }
 
-  .nav-link:hover {
+  .navbar-links .nav-link {
+    color: #000;
+    display: block;
+  }
+
+  .navbar-links .nav-link:hover {
     color: #f72210 !important;
   }
 
-  .form-inline {
+  .navbar-links .form-inline {
     position: relative;
   }
 
-  .form-inline i {
+  .navbar-links .form-inline i {
     position: absolute;
     right: 25px;
   }
 
-  .form-control {
-    outline: none;
-    border: none;
+  .navbar-links .form-inline .form-control {
     height: 80%;
     width: 100px !important;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: inherit;
   }
 
-  .form-control:focus {
-    outline: transparent !important;
+  .site-content {
+    background-color: #fff;
+    height: 500px;
   }
-}*/
+
+  .site-content-wrapper {
+    background-color: aquamarine;
+  }
+}
