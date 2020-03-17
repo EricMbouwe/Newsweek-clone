@@ -107,7 +107,6 @@ body {
 
   .site-content {
     background-color: #fff;
-    height: 500px;
     padding: 1.5em 1em;
   }
 
@@ -180,7 +179,7 @@ body {
     width: 30%;
     font-weight: 600;
     font-size: 1.1em;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.05em;
   }
 
   .top-header_right span {
@@ -190,7 +189,7 @@ body {
   .top-header_right .subscribe-btn {
     background-color: #fff;
     color: #f72210 !important;
-    padding: 5px 10px;
+    padding: 3px 5px;
   }
 
   .navbar-lg {
@@ -240,7 +239,6 @@ body {
 
   .site-content {
     background-color: #fff;
-    height: 500px;
   }
 
   .site-content-wrapper {
