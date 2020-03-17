@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /*BG-COLORS*/
@@ -13,17 +11,13 @@
   background-color: #fff;
 }
 
-/*HIDDEN-CONTENTS*/
-.hidden,
-.hidden-mobile {
-  display: none;
+a {
+  color: #fff;
 }
 
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 85.5%;
-  background-color: yellow;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f4f5f6;
 }
 
 .container,
@@ -35,78 +29,180 @@ body {
   padding: 20px 30px;
 }
 
-.header-fluid {
-  background-color: lightblue;
+/*HIDDEN-CONTENTS*/
+.hide,
+.header-desktop-hidden {
+  display: none;
 }
 
-.header {
-  background-color: lightblue;
-  padding: 20px 0 0 0;
+/*MOBILE STYLE*/
+.header-mobile-hidden {
+  background-color: #f72210;
 }
 
-.top-header {
-  background-color: red;
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-}
-
-.top-header a {
-  color: #fff;
-}
-
-.top-header a:hover {
-  text-decoration: none;
-}
-
-.top-header_left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid green;
-  width: 30%;
-  padding: 10px;
-}
-
-.weather {
-  padding: 8px;
-}
-.top-header_left p {
-  padding: 8px;
-}
-
-.top-header_center {
-  border: 1px solid green;
-  width: 38%;
-}
-
-.top-header_center svg {
-  width: 100%;
-  height: 90%;
-  border: 1px solid green;
-}
-
-.top-header_right {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  border: 1px solid green;
-  width: 30%;
-}
-
-.top-header_right span {
-  margin:0 10px 15px 0;
-}
-
-.navbar {
+.subscribe-btn {
   background-color: #fff;
+  color: #f72210;
+  padding: 5px 5px;
+}
+
+.navbar svg {
+  width: 100%;
+  height: 100%;
+  max-width: 170px;
+}
+
+.navbar-brand {
+  width: 40%;
+  color: #fff;
+}
+
+.navbar-middle-items {
+  width: 43%;
+}
+
+.navbar-item a {
+  width: 50%;
+  max-width: 40px;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: -0.1em; 
+}
+
+.navbar .navbar-toggler {
+  width: 10%;
+  border: 1px solid black;
+}
+.navbar-toggler-icon {
+  color: #fff;
 }
 
 .site-content {
-  background-color: #f4f5f6;
+  background-color: #fff;
   height: 500px;
+  padding: 25px 15px;
 }
 
 .site-content-wrapper {
-  background-color: #fff;
+  background-color: aquamarine;
 }
+
+
+
+
+/*@media screen and (min-width: 992px) {
+  .header-mobile-hidden {
+    display: none;
+  }
+
+  .header-desktop-hidden {
+    padding: 0;
+    margin-bottom: 2px;
+  }
+
+  .top-header {
+    background-color: #f72210;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5px 0;
+  }
+
+  .top-header a {
+    color: #fff;
+  }
+
+  .top-header a:hover {
+    text-decoration: none;
+  }
+
+  .top-header_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 10px;
+    font-size: 1.1em;
+  }
+
+  .weather {
+    padding: 8px;
+    font-weight: 700;
+  }
+  .top-header_left p {
+    padding: 8px;
+    font-weight: 400;
+  }
+
+  .top-header_center {
+    width: 38%;
+    align-self: center;
+    text-align: center;
+  }
+
+  .top-header_center svg {
+    width: 80%;
+    height: 50%;
+  }
+
+  .top-header_right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 30%;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+
+  .top-header_right span {
+    margin: 0 10px 15px 0;
+  }
+
+  .subscribe-btn {
+    background-color: #fff;
+    color: #f72210 !important;
+    padding: 5px 10px;
+  }
+
+  .navbar {
+    background-color: #fff;
+    font-weight: 600;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar-nav li {
+  }
+
+  .nav-link {
+    border-right: 1px solid #dbdbdb;
+    color: #000 !important;
+  }
+
+  .nav-link:hover {
+    color: #f72210 !important;
+  }
+
+  .form-inline {
+    position: relative;
+  }
+
+  .form-inline i {
+    position: absolute;
+    right: 25px;
+  }
+
+  .form-control {
+    outline: none;
+    border: none;
+    height: 80%;
+    width: 100px !important;
+  }
+
+  .form-control:focus {
+    outline: transparent !important;
+  }
+}*/
