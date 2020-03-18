@@ -14,10 +14,10 @@
 
 <body>
 
-    <header class="header-mobile-hidden container-fluid p-1">
+    <header class="header-mobile-hidden container-fluid p-1 d-lg-none">
 
-        <nav class="navbar navbar-expand-lg px-0 py-1 text-right navbar-light">
-            <a class="navbar-brand ml-2 mr-0" href="#">
+        <nav class="navbar navbar-expand-lg px-0 py-1 navbar-light">
+            <a class="navbar-brand ml-2 mr-0 mx-md-0 pl-md-4" href="#">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
                     style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -29,9 +29,14 @@
                 </svg>
             </a>
 
-            <div class="navbar-middle-items mx-0">
+            <!-- <div class="weather d-none d-md-block d-lg-none">
+                <span><a href="#"><i class="fa fa-cloud"></i></a> 54°</span>
+                <span><a href="#">null, CA ></a></span>
+            </div> -->
+
+            <div class="navbar-middle-items mx-0 text-right">
                 <span class="navbar-md-item mx-0"><a href="#">SIGN IN</a></span>
-                <span class="navbar-md-item mx-0"><a href="#" class="link subscribe-btn">SUBSCRIBE</a></span>
+                <span class="navbar-md-item mx-0"><a href="#" class="link btn-template">SUBSCRIBE</a></span>
             </div>
 
             <button class="navbar-toggler p-0 mr-1 ml-0" type="button" data-toggle="collapse"
@@ -61,7 +66,7 @@
         </nav>
     </header>
 
-    <header class="header-desktop-hidden container-xl">
+    <header class="header-desktop-hidden container-xl d-none d-lg-block p-0">
         <div class="top-header">
             <div class="top-header_left">
                 <div class="weather">
@@ -85,13 +90,13 @@
             </div>
             <div class="top-header_right">
                 <span><a href="#">SIGN IN</a></span>
-                <span><a href="#" class="subscribe-btn">SUBSCRIBE > </a></span>
+                <span><a href="#" class="btn-template">SUBSCRIBE > </a></span>
             </div>
         </div>
 
         <nav class="navbar-lg">
             <div class="navbar-items px-2">
-                <ul class="navbar-links d-flex py-2">
+                <ul class="navbar-links d-flex py-2 px-0 m-0 align-items-center">
                     <li><a class="nav-link" href="#">U.S.</a></li>
                     <li><a class="nav-link" href="#">World</a></li>
                     <li><a class="nav-link" href="#">Business</a></li>
@@ -125,7 +130,9 @@
                         <section class="aside-1__featured-stories">
                             <h3 class="text-left">featured stories</h3>
                             <article class="featured-stories-item">
-                                <a href="#"><img src="" alt="feat-stories"></a>
+                                <a href="#"><img
+                                        src="https://d.newsweek.com/en/full/1574468/coronavirus-economic-stimulus-packages.webp?w=397&h=265&q=90&f=2140a7088d5ce26868ed80e2316fcbcc"
+                                        alt="feat-stories"></a>
                                 <a href="#" class="featured-stories__title"></a>
                                 <p class="featured-stories__details">details</p>
                             </article>
@@ -276,6 +283,20 @@
 
                             <!-- carre publicitaire sign up for Newletter a ajouter -->
 
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a href="#" class="btn-template border">Go somewhere</a>
+                                </div>
+                            </div>
+
+                            <!-- carre publicitaire sign up for Newletter a ajouter -->
+
                             <article class="latest-news-item">
                                 <a href="#"><img src="" alt="latest-news"></a>
                                 <div class="latest-news-item__desc">
@@ -290,7 +311,9 @@
                         <section class="main-center__top-stories">
                             <h3 class="text-left">top stories</h3>
                             <article class="top-stories-item">
-                                <a href="#"><img class="" src="https://d.newsweek.com/en/full/1568876/donald-trump-rally-hat-reelection.webp?w=591&h=364&f=b1d6540490b01e63ff1776719969a2cb" alt="topstorie"></a>
+                                <a href="#"><img class="img-fluid"
+                                        src="https://d.newsweek.com/en/full/1568876/donald-trump-rally-hat-reelection.webp?w=591&h=364&f=b1d6540490b01e63ff1776719969a2cb"
+                                        alt="topstorie"></a>
                                 <div class="top-storie__desc">
                                     <a href="#" class="top-story__title"></a>
                                     <p class="top-story__details">details</p>
@@ -412,7 +435,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -420,7 +443,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -428,7 +451,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -436,7 +459,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -444,7 +467,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -452,7 +475,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -460,7 +483,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -468,7 +491,7 @@
                     <article class="magazine-item">
                         <a href="#"><img src="" alt="mag"></a>
                         <div class="mag__title">
-                            <span class="subscribe-btn">title</span>
+                            <span class="btn-template">title</span>
                             <a href="#">title_link</a>
                         </div>
                         <a href="#" class="mag__details">details</a>
@@ -682,7 +705,7 @@
                                 <div class="subscribe_div__details">
                                     <h2>title</h2>
                                     <p>text</p>
-                                    <a href="#" class="subscribe-btn">subscribe ></a>
+                                    <a href="#" class="btn-template">subscribe ></a>
                                 </div>
                             </div>
                         </article>
@@ -694,7 +717,7 @@
                                 <div class="newsletter_div__details">
                                     <h2>title</h2>
                                     <p>text</p>
-                                    <a href="#" class="subscribe-btn">sign up ></a>
+                                    <a href="#" class="btn-template">sign up ></a>
                                 </div>
                             </div>
                         </article>

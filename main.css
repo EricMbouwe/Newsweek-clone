@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+body {
+  /* font-family: "Roboto Condensed", sans-serif; */
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #f4f5f6;
+  font-size: 16px;
+}
+
 /*BG-COLORS*/
 .gray-bg-mobile {
   background-color: #f4f5f6;
@@ -18,15 +25,28 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 li {
   list-style-type: none;
 }
 
-body {
-  font-family: "Roboto Condensed", sans-serif;
-  background-color: #f4f5f6;
-  font-size: 16px;
+img {
+  max-width: 100%;
+  height: auto;
 }
+
+/* p,
+h1,
+h3,
+h5,
+ul,
+li, 
+hr {
+  margin: 0;
+} */
 
 .container,
 .container-lg,
@@ -34,12 +54,6 @@ body {
 .container-sm,
 .container-xl {
   max-width: 1325px;
-}
-
-/*MOBILE STYLE*/
-.hide,
-.header-desktop-hidden {
-  display: none;
 }
 
 .header-mobile-hidden {
@@ -70,7 +84,7 @@ body {
   letter-spacing: -0.1em;
 }
 
-.subscribe-btn {
+.btn-template {
   background-color: #fff;
   color: #f72210;
   padding: 5px 3px;
@@ -119,17 +133,7 @@ body {
 }
 
 @media screen and (min-width: 992px) {
-  .header-mobile-hidden,
-  .hide {
-    display: none;
-  }
-
   .header-desktop-hidden {
-    display: block;
-  }
-
-  .header-desktop-hidden {
-    padding: 0;
     margin-bottom: 2px;
   }
 
@@ -162,6 +166,7 @@ body {
     font-weight: 700;
     padding: 20px 8px 8px 25px;
   }
+
   .top-header_left p {
     padding: 0 8px 2px 25px;
     font-weight: 400;
@@ -193,10 +198,8 @@ body {
     margin: 0 12px 12px 0;
   }
 
-  .top-header_right .subscribe-btn {
-    background-color: #fff;
+  .top-header_right .btn-template {
     color: #f72210 !important;
-    padding: 3px 5px;
   }
 
   .navbar-lg {
@@ -205,17 +208,20 @@ body {
   }
 
   .navbar-lg .navbar-links {
-    justify-content: stretch;
+    justify-content: start;
     font-size: 1.2vw;
   }
 
   .navbar-links li {
     text-align: center;
-    border-right: 1px solid #dbdbdb;
+    /* flex-basis: 9%; */
+    /* flex: 1; */
   }
 
   .navbar-links .nav-link {
     color: #000;
+    border-right: 1px solid #dbdbdb;
+    padding: 0 16px;
   }
 
   .navbar-links .nav-link:hover {
