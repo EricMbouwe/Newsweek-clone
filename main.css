@@ -96,7 +96,7 @@ hr {
   outline: none;
 }
 .navbar-toggler-icon {
-  color: gray;
+  color: rgba(255,255,255,.5);
 }
 
 #navbarSupportedContent {
