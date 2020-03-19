@@ -12,12 +12,20 @@ body {
 }
 
 /*BG-COLORS*/
-.gray-bg-mobile {
-  background-color: #f4f5f6;
+.gray-bg {
+  background-color: #F4F5F6 !important;
+}
+
+.red-bg {
+  background-color: #F72210 !important;
 }
 
 .white-bg-mobile {
-  background-color: #fff;
+  background-color: #fff !important;
+}
+
+.caption-blue {
+  color: #3581F4 !important;
 }
 
 a {
@@ -53,7 +61,7 @@ hr {
 .container-md,
 .container-sm,
 .container-xl {
-  max-width: 1325px;
+  max-width: 1310px;
 }
 
 .header-mobile-hidden {
@@ -68,6 +76,13 @@ hr {
 .navbar svg {
   width: 100%;
   height: 100%;
+  max-width: 170px;
+  fill: #fff;
+}
+
+.logo-footer {
+  width: 50%;
+  height: 50%;
   max-width: 170px;
   fill: #fff;
 }
@@ -96,7 +111,7 @@ hr {
   outline: none;
 }
 .navbar-toggler-icon {
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 #navbarSupportedContent {
@@ -130,6 +145,62 @@ hr {
 
 .site-content-wrapper {
   background-color: aquamarine;
+}
+
+.top-stories-item,
+.featured-stories-item,
+.editor-item,
+.feature-item {
+  /* position: relative; */
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.caption-top {
+  left: 0;
+  top: 0 ;
+  position: absolute;
+  left: 0;
+  background-color: whitesmoke;
+  color: #f72210;
+  padding: 4px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: -0.1em;
+  cursor: pointer;
+  
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #e9e8e9;
+  color: #f72210;
+  padding: 4px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: -0.1em;
+  cursor: pointer;
+}
+
+.caption-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #e9e8e9;
+  color: gray;
+  padding: 4px 15px;
+  text-transform: capitalize;
+  font-size: 0.9em;
+  font-weight: 400;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
@@ -167,6 +238,16 @@ hr {
     padding: 20px 8px 8px 25px;
   }
 
+  .top-header_left .weather .city {
+    font-size: 0.9em;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+  }
+
+  .top-header_left .weather .cloud {
+    font-size: 1.1em;
+  }
+
   .top-header_left p {
     padding: 0 8px 2px 25px;
     font-weight: 400;
@@ -178,7 +259,8 @@ hr {
     text-align: center;
   }
 
-  .top-header_center svg {
+  /* .top-header_center svg { */
+  .logo {
     width: 75%;
     height: 55%;
     fill: #fff;
