@@ -121,7 +121,11 @@ hr {
 }
 
 .navbar-nav {
-  background-color: #f4f5f6;
+  /* background-color: #fff; */
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
 }
 
 .navbar-nav .form-inline {
@@ -130,7 +134,7 @@ hr {
 
 .navbar-nav .form-inline i {
   position: absolute;
-  left: 2em;
+  left: 5em;
 }
 
 .navbar-nav .form-control {
@@ -278,6 +282,8 @@ hr {
   padding: 0 0.5em;
   border-right: 1px solid gray;
 }
+
+
 
 @media screen and (min-width: 992px) {
   .header-desktop-hidden {
