@@ -29,7 +29,7 @@ body {
 }
 
 .gray-color {
-  color: gray !important;
+  color: rgba(128, 128, 128, 0.664) !important;
 }
 
 .red-color {
@@ -150,13 +150,6 @@ hr {
   background-color: aquamarine;
 }
 
-.top-stories-item,
-.featured-stories-item,
-.editor-item,
-.feature-item {
-  /* position: relative; */
-}
-
 .pos-rel {
   position: relative;
 }
@@ -205,21 +198,54 @@ hr {
   cursor: pointer;
 }
 
-.sect-4-art__title {
+.culture-travl__title {
+  font-size: 1.3em;
+  color: rgba(0, 0, 0, 0.863) !important;
+}
+
+.culture-travl__details {
+  color: rgba(0, 0, 0, 0.432);
+  font-size: 0.9em;
+}
+
+.section-4 h3 {
+  text-transform: capitalize;
+  font-size: 1.3em;
+  letter-spacing: -0.1em;
+  color: #f72210;
+  font-weight: bolder;
+}
+
+.sect-4-art__title,
+.feature__details,
+.editor__title,
+.mag__details,
+.featured-stories__title,.top-story__title {
   font-size: 1.4em;
+  font-weight: bolder;
   color: #000 !important;
 }
 
-.sect4-art-aside__title {
+.sect4-art-aside__title,
+.latest-news__title,
+.debate__details,
+.opinion__details,.more-stories__title {
   font-size: 1em;
+  font-weight: bolder;
   color: #000 !important;
 }
 
-.sect-4-art__title:hover {
+.sect-4-art__title:hover,
+.feature__details:hover,
+.editor__title:hover,
+.mag__details:hover,
+.featured-stories__title:hover,.top-story__title:hover {
   text-decoration: underline;
 }
 
-.sect4-art-aside__title:hover {
+.sect4-art-aside__title:hover,
+.latest-news__title:hover,
+.opinion__details:hover,.more-stories__title:hover {
   color: #f72210 !important;
 }
 
