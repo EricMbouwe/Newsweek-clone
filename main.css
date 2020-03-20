@@ -13,11 +13,11 @@ body {
 
 /*BG-COLORS*/
 .gray-bg {
-  background-color: #F4F5F6 !important;
+  background-color: #f4f5f6 !important;
 }
 
 .red-bg {
-  background-color: #F72210 !important;
+  background-color: #f72210 !important;
 }
 
 .white-bg-mobile {
@@ -25,7 +25,15 @@ body {
 }
 
 .caption-blue {
-  color: #3581F4 !important;
+  color: #3581f4 !important;
+}
+
+.gray-color {
+  color: gray !important;
+}
+
+.red-color {
+  color: #f72210 !important;
 }
 
 a {
@@ -81,10 +89,11 @@ hr {
 }
 
 .logo-footer {
-  width: 50%;
-  height: 50%;
-  max-width: 170px;
-  fill: #fff;
+  width: 20em;
+  max-width: 200px;
+  height: auto;
+  fill: #f72210;
+  padding: 0.3em 0.5em 0.3em 0;
 }
 
 .navbar-middle-items {
@@ -110,12 +119,6 @@ hr {
   border: none;
   outline: none;
 }
-.navbar-toggler-icon {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-#navbarSupportedContent {
-}
 
 .navbar-nav {
   background-color: #f4f5f6;
@@ -127,7 +130,7 @@ hr {
 
 .navbar-nav .form-inline i {
   position: absolute;
-  right: 205px;
+  left: 2em;
 }
 
 .navbar-nav .form-control {
@@ -160,7 +163,7 @@ hr {
 
 .caption-top {
   left: 0;
-  top: 0 ;
+  top: 0;
   position: absolute;
   left: 0;
   background-color: whitesmoke;
@@ -172,7 +175,6 @@ hr {
   font-weight: 600;
   letter-spacing: -0.1em;
   cursor: pointer;
-  
 }
 
 .caption {
@@ -201,6 +203,54 @@ hr {
   font-size: 0.9em;
   font-weight: 400;
   cursor: pointer;
+}
+
+.sect-4-art__title {
+  font-size: 1.4em;
+  color: #000 !important;
+}
+
+.sect4-art-aside__title {
+  font-size: 1em;
+  color: #000 !important;
+}
+
+.sect-4-art__title:hover {
+  text-decoration: underline;
+}
+
+.sect4-art-aside__title:hover {
+  color: #f72210 !important;
+}
+
+.footer-news h3 {
+  font-size: 1em;
+}
+.footer-news h4 {
+  font-size: 1.4em;
+}
+
+.footer-top-links .marq {
+  flex: 1;
+}
+
+.footer-top-links .socials-icons {
+  flex: 1;
+}
+
+.services-links {
+  font-size: 0.9em;
+  color: rgba(68, 66, 66, 0.829);
+  cursor: pointer;
+}
+
+.services-links span:hover {
+  color: rgba(0, 0, 0, 0.849);
+}
+
+.services-links span {
+  padding: 0 0.5em;
+  border-right: 1px solid gray;
 }
 
 @media screen and (min-width: 992px) {
@@ -330,6 +380,6 @@ hr {
 
   .site-content {
     background-color: #fff;
-    padding: 1.5em 2em;
+    padding: 1.5em 2em 0 2em;
   }
 }

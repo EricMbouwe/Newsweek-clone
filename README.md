@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Preview](https://raw.githack.com/EricMbouwe/Newsweek-clone/homepage/home.html)
+[Live Preview](https://rawcdn.githack.com/EricMbouwe/Newsweek-clone/8e26fc40daa709a1dedad4b1d2f8a953999fefb3/index.html)
 
 ## Getting Started
 
