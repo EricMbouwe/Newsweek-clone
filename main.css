@@ -104,6 +104,7 @@ hr {
 
 .navbar .weather {
   flex: 1;
+  text-align: right;
 }
 
 .navbar-md-item a {
@@ -112,6 +113,10 @@ hr {
   font-size: 0.9em;
   font-weight: 600;
   letter-spacing: -0.1em;
+}
+
+.navbar-md-item a:hover {
+  color: rgba(0, 0, 0, 0.459);
 }
 
 .btn-template {
@@ -128,11 +133,11 @@ hr {
 }
 
 .navbar-nav {
-  background-color: #fff;
+  background-color: #5a060623;
 }
 
 .navbar-nav .nav-link {
-  /* color: #f72210 !important; */
+  color: #fff !important;
   font-weight: 500;
 }
 
