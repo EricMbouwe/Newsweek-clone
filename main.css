@@ -82,7 +82,7 @@ hr {
 }
 
 .navbar svg {
-  width: 100%;
+  width: 200%;
   height: 100%;
   max-width: 170px;
   fill: #fff;
@@ -97,7 +97,8 @@ hr {
 }
 
 .navbar-middle-items {
-  flex: 1;
+  flex: 2;
+  padding-right: 0.2em;
 }
 
 .navbar .weather {
@@ -122,14 +123,16 @@ hr {
   width: 10%;
   border: none;
   outline: none;
+  flex: 0 auto;
 }
 
 .navbar-nav {
-  /* background-color: #fff; */
+  background-color: #fff;
 }
 
 .navbar-nav .nav-link {
-  color: #fff !important;
+  /* color: #f72210 !important; */
+  font-weight: 500;
 }
 
 .navbar-nav .form-inline {
