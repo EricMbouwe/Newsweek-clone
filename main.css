@@ -69,7 +69,7 @@ hr {
 .container-md,
 .container-sm,
 .container-xl {
-  max-width: 1310px;
+  max-width: 1300px;
 }
 
 .header-mobile-hidden {
@@ -77,7 +77,7 @@ hr {
 }
 
 .navbar-brand {
-  width: 40%;
+  flex: 1;
   color: #fff;
 }
 
@@ -97,7 +97,11 @@ hr {
 }
 
 .navbar-middle-items {
-  width: 43%;
+  flex: 1;
+}
+
+.navbar .weather {
+  flex: 1;
 }
 
 .navbar-md-item a {
@@ -147,7 +151,7 @@ hr {
 
 .site-content {
   background-color: #fff;
-  padding: 1.5em 1em;
+  padding: 0;
 }
 
 .site-content-wrapper {
@@ -205,11 +209,32 @@ hr {
 .culture-travl__title {
   font-size: 1.3em;
   color: rgba(0, 0, 0, 0.863) !important;
+  line-height: 1em;
 }
 
 .culture-travl__details {
   color: rgba(0, 0, 0, 0.432);
   font-size: 0.9em;
+}
+
+.more-stories__desc,
+.opinion-desc,
+.debate__details,
+.latest-news__title {
+  font-size: 0.9em;
+  flex: 1;
+  padding: 0 1em;
+}
+
+.featured-stories__details,
+.top-story__details,
+.editor__details {
+  font-size: 0.9em;
+}
+
+.debate-img {
+  width: 95px;
+  height: 95px;
 }
 
 .section-4 h3 {
@@ -223,18 +248,22 @@ hr {
 .sect-4-art__title,
 .feature__details,
 .editor__title,
-.mag__details,
-.featured-stories__title,.top-story__title {
-  font-size: 1.4em;
+.featured-stories__title,
+.top-story__title {
+  font-size: 1em;
   font-weight: bolder;
   color: #000 !important;
+  line-height: 1em;
 }
 
 .sect4-art-aside__title,
 .latest-news__title,
 .debate__details,
-.opinion__details,.more-stories__title {
-  font-size: 1em;
+.opinion__details,
+.more-stories__title,
+.mag__details {
+  font-size: 0.9em;
+  line-height: 1em;
   font-weight: bolder;
   color: #000 !important;
 }
@@ -243,13 +272,15 @@ hr {
 .feature__details:hover,
 .editor__title:hover,
 .mag__details:hover,
-.featured-stories__title:hover,.top-story__title:hover {
+.featured-stories__title:hover,
+.top-story__title:hover {
   text-decoration: underline;
 }
 
 .sect4-art-aside__title:hover,
 .latest-news__title:hover,
-.opinion__details:hover,.more-stories__title:hover {
+.opinion__details:hover,
+.more-stories__title:hover {
   color: #f72210 !important;
 }
 
@@ -282,8 +313,6 @@ hr {
   padding: 0 0.5em;
   border-right: 1px solid gray;
 }
-
-
 
 @media screen and (min-width: 992px) {
   .header-desktop-hidden {
@@ -341,7 +370,6 @@ hr {
     text-align: center;
   }
 
-  /* .top-header_center svg { */
   .logo {
     width: 75%;
     height: 55%;
@@ -378,8 +406,6 @@ hr {
 
   .navbar-links li {
     text-align: center;
-    /* flex-basis: 9%; */
-    /* flex: 1; */
   }
 
   .navbar-links .nav-link {
@@ -412,6 +438,6 @@ hr {
 
   .site-content {
     background-color: #fff;
-    padding: 1.5em 2em 0 2em;
+    padding: 1em 1em 0 1em;
   }
 }
