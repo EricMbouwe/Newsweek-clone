@@ -50,7 +50,8 @@ li {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 200%;
   height: auto;
 }
 
@@ -154,11 +155,12 @@ hr {
 
 .site-content {
   background-color: #fff;
-  padding: 0;
+  padding: 1.5em 0 0 0;
+  margin-top: 3.4em;
 }
 
 .site-content-wrapper {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .pos-rel {
@@ -231,7 +233,9 @@ hr {
 
 .featured-stories__details,
 .top-story__details,
-.editor__details {
+.editor__details,
+.sub-text,
+.news-text {
   font-size: 0.9em;
 }
 
@@ -252,6 +256,8 @@ hr {
 .feature__details,
 .editor__title,
 .featured-stories__title,
+.more-stories__title,
+.opinion__details,
 .top-story__title {
   font-size: 1em;
   font-weight: bolder;
@@ -260,15 +266,18 @@ hr {
 }
 
 .sect4-art-aside__title,
-.latest-news__title,
-.debate__details,
-.opinion__details,
-.more-stories__title,
 .mag__details {
   font-size: 0.9em;
   line-height: 1em;
   font-weight: bolder;
   color: #000 !important;
+}
+
+.latest-news__title,
+.debate__details {
+  font-size: 0.8em;
+  color: #000 !important;
+  font-weight: bolder;
 }
 
 .sect-4-art__title:hover,
@@ -291,7 +300,7 @@ hr {
   font-size: 1em;
 }
 .footer-news h4 {
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 .footer-top-links .marq {
@@ -300,6 +309,14 @@ hr {
 
 .footer-top-links .socials-icons {
   flex: 1;
+}
+
+.newsletter_div img {
+  height: 100%;
+}
+
+.newsletter_div__details {
+  border: 1px solid rgba(128, 128, 128, 0.158);
 }
 
 .services-links {
@@ -442,5 +459,6 @@ hr {
   .site-content {
     background-color: #fff;
     padding: 1em 1em 0 1em;
+    margin-top: 0;
   }
 }
