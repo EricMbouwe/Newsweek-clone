@@ -3,7 +3,9 @@ This is the Newsweek homepage-clone build from scratch with HTML &amp; CSS and B
 
 > This is a practice case of Microverse HTML and CSS course. The goal is to clone the Newsweek homepage to implement responvive design with Boostrap.
 
-![screenshot](./images/)
+![screenshot](./images/mobile.jpg)
+![screenshot](./images/tablet.jpg)
+![screenshot](./images/newsweek-screenshot.PNG)
 
 Additional description about the project and its features.
 
@@ -16,7 +18,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Preview](https://rawcdn.githack.com/EricMbouwe/Newsweek-clone/8e26fc40daa709a1dedad4b1d2f8a953999fefb3/index.html)
+[Live Preview](https://rawcdn.githack.com/EricMbouwe/Newsweek-clone/8ef190ed7ff5795fa58d5b4a2c459d24afa99474/index.html)
 
 ## Getting Started
 
