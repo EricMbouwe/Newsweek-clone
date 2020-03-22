@@ -303,6 +303,25 @@ hr {
   color: #f72210 !important;
 }
 
+.red-border {
+  border-top: 4px solid #F92859;
+}
+
+.blue-border {
+  border-top: 4px solid #1C87FB;
+}
+
+.sect-4-art-aside img {
+  height: 100%;
+  max-height: 4em;
+  width: 100%;
+  max-width: 6em;
+}
+
+.sect-4-art-aside .sect4-art-aside__title {
+  flex: 1;
+}
+
 .footer-news h3 {
   font-size: 1em;
 }
