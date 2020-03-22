@@ -264,15 +264,15 @@ hr {
 .editor__title,
 .featured-stories__title,
 .more-stories__title,
-.opinion__details,
 .top-story__title {
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bolder;
   color: #000 !important;
   line-height: 1em;
 }
 
 .sect4-art-aside__title,
+.opinion__details,
 .mag__details {
   font-size: 0.9em;
   line-height: 1em;
@@ -293,7 +293,10 @@ hr {
 .mag__details:hover,
 .featured-stories__title:hover,
 .top-story__title:hover {
-  text-decoration: underline;
+  /* text-decoration: underline;
+  text-decoration-color:#f72210;
+  text-decoration-thickness: 2px; */
+  border-bottom: 2px solid #f72210;
 }
 
 .sect4-art-aside__title:hover,
