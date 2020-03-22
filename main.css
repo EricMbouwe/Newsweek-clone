@@ -29,7 +29,7 @@ body {
 }
 
 .gray-color {
-  color: rgba(128, 128, 128, 0.664) !important;
+  color: rgba(128, 128, 128, 0.87) !important;
 }
 
 .red-color {
@@ -147,13 +147,15 @@ hr {
 
 .navbar-nav .form-inline i {
   position: absolute;
-  left: 5em;
+  left: 12.5em;
+  color: #f72210;
 }
 
 .navbar-nav .form-control {
   outline: none;
   box-shadow: none;
   border: none;
+  border-bottom: 2px solid #f72210;;
   width: 200px;
   background-color: inherit;
 }
@@ -336,7 +338,6 @@ hr {
 
 .services-links span {
   padding: 0 0.5em;
-  border-right: 1px solid gray;
 }
 
 @media screen and (min-width: 992px) {
@@ -465,5 +466,10 @@ hr {
     background-color: #fff;
     padding: 1em 1em 0 1em;
     margin-top: 0;
+  }
+
+  .services-links span {
+    padding: 0 0.5em;
+    border-right: 1px solid gray;
   }
 }
