@@ -11,7 +11,6 @@ body {
   font-size: 16px;
 }
 
-/*BG-COLORS*/
 .gray-bg {
   background-color: #f4f5f6 !important;
 }
@@ -54,16 +53,6 @@ img {
   max-width: 200%;
   height: auto;
 }
-
-/* p,
-h1,
-h3,
-h5,
-ul,
-li, 
-hr {
-  margin: 0;
-} */
 
 .container,
 .container-lg,
@@ -155,7 +144,7 @@ hr {
   outline: none;
   box-shadow: none;
   border: none;
-  border-bottom: 2px solid #f72210;;
+  border-bottom: 2px solid #f72210;
   width: 200px;
   background-color: inherit;
 }
@@ -166,10 +155,6 @@ hr {
   margin-top: 3.4em;
 }
 
-.site-content-wrapper {
-  /* background-color: aquamarine; */
-}
-
 .pos-rel {
   position: relative;
 }
@@ -178,7 +163,6 @@ hr {
   left: 0;
   top: 0;
   position: absolute;
-  left: 0;
   background-color: whitesmoke;
   color: #f72210;
   padding: 4px 15px;
@@ -295,9 +279,6 @@ hr {
 .mag__details:hover,
 .featured-stories__title:hover,
 .top-story__title:hover {
-  /* text-decoration: underline;
-  text-decoration-color:#f72210;
-  text-decoration-thickness: 2px; */
   border-bottom: 2px solid #f72210;
 }
 
@@ -309,11 +290,15 @@ hr {
 }
 
 .red-border {
-  border-top: 4px solid #F92859;
+  border-top: 4px solid #f92859;
 }
 
 .blue-border {
-  border-top: 4px solid #1C87FB;
+  border-top: 4px solid #1c87fb;
+}
+
+.sect-4-art img {
+  margin-bottom: 0.5em;
 }
 
 .sect-4-art-aside img {
@@ -356,12 +341,12 @@ hr {
   cursor: pointer;
 }
 
-.services-links span:hover {
-  color: rgba(0, 0, 0, 0.849);
-}
-
 .services-links span {
   padding: 0 0.5em;
+}
+
+.services-links span:hover {
+  color: rgba(0, 0, 0, 0.849);
 }
 
 @media screen and (min-width: 992px) {
