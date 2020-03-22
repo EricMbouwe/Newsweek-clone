@@ -281,7 +281,9 @@ hr {
 }
 
 .latest-news__title,
-.debate__details {
+.debate__details,
+.debate__panelist,
+.opinion__author {
   font-size: 0.8em;
   color: #000 !important;
   font-weight: bolder;
