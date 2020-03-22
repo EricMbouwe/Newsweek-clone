@@ -16,7 +16,7 @@
     <header class="header-mobile-hidden container-fluid p-1 d-lg-none fixed-top">
 
         <nav class="navbar navbar-expand-lg px-0 py-1 navbar-light ">
-            <a class="navbar-brand ml-2 mr-0 mx-md-0 pl-md-4" href="#">
+            <a class="nav-marq ml-2 mr-0 mx-md-0 pl-md-4" href="#">
                 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
                     style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
@@ -29,7 +29,7 @@
             </a>
 
             <div class="weather px-1">
-                <span class="cloud d-none d-sm-inline"><a href="#"><i class="fa fa-cloud mx-2"></i>27°</a></span>
+                <span class="cloud d-xs-inline text-right p-0"><a href="#"><i class="fa fa-cloud mx-2"></i>27°</a></span>
                 <span class="city d-none d-md-inline"><a href="#">Douala, CM ></a></span>
             </div>
 
@@ -41,12 +41,12 @@
             <button class="navbar-toggler p-0 mr-1 ml-0" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="nav-icon"><i class="fa fa-bars fa-lg"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto p-3 text-left">
                     <li class="form-inline p-0 m-0">
-                        <input class="form-control m-0 p-0" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control m-0 p-0 text-light" type="search" placeholder="Search.." aria-label="Search">
                         <i class="fa fa-search"></i>
                     </li>
                     <li><a class="nav-link" href="#">U.S.</a></li>
@@ -110,7 +110,7 @@
                     <li><a class="nav-link" href="#">Weather</a></li>
                     <li class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <i class="fa fa-search"></i>
+                        <i class="fa fa-search fa-lg"></i>
                     </li>
                 </ul>
             </div>
@@ -220,7 +220,7 @@
 
                         </section>
 
-                        <section class="main-center__more-stories mt-3">
+                        <section class="main-center__more-stories mt-3 ">
                             <h6 class="text-left text-uppercase font-weight-bolder gray-color">more stories</h6>
                             <hr>
 
@@ -333,64 +333,75 @@
                                 </article>
                                 <hr>
 
-                                <article class="more-stories-item d-flex">
-                                    <h6 class="d-none">d-none</h6>
-                                    <a href="#"><img
-                                            src="https://d.newsweek.com/en/full/1574675/coronavirus-covid-19-doctor-getty.webp?w=95&h=95&f=8cd8eb04e7cf2b1df21e664f61e3276a"
-                                            alt="more-stories-img"></a>
-                                    <div class="more-stories__desc">
-                                        <a href="#" class="more-stories__title">Coronavirus Did Not Originate in a Lab,
-                                            Scientists Say</a>
-                                        <p class="more-stories__details">The study ends "any speculation about
-                                            deliberate genetic engineering," said Josie Golding, epidemics lead at the
-                                            Wellcome Trust.</p>
-                                    </div>
-                                </article>
-                                <hr>
+                                <!-- <div class=" more-stories-items__fixed overflow-hidden w-100 vh-100"> -->
+                                    <article class="more-stories-item d-flex">
+                                        <h6 class="d-none">d-none</h6>
+                                        <a href="#"><img
+                                                src="https://d.newsweek.com/en/full/1574675/coronavirus-covid-19-doctor-getty.webp?w=95&h=95&f=8cd8eb04e7cf2b1df21e664f61e3276a"
+                                                alt="more-stories-img"></a>
+                                        <div class="more-stories__desc">
+                                            <a href="#" class="more-stories__title">Coronavirus Did Not Originate in a
+                                                Lab,
+                                                Scientists Say</a>
+                                            <p class="more-stories__details">The study ends "any speculation about
+                                                deliberate genetic engineering," said Josie Golding, epidemics lead at
+                                                the
+                                                Wellcome Trust.</p>
+                                        </div>
+                                    </article>
+                                    <hr>
 
-                                <article class="more-stories-item d-flex">
-                                    <h6 class="d-none">d-none</h6>
-                                    <a href="#"><img
-                                            src="https://d.newsweek.com/en/full/1574805/coronavirus-test-doctors-prisons-inmates-detainees-spread.webp?w=95&h=95&f=608e5c918d5d62facd43a0ffc7549a6c"
-                                            alt="more-stories-img"></a>
-                                    <div class="more-stories__desc">
-                                        <a href="#" class="more-stories__title">Coronavirus Could Spread 'Like Wildfire'
-                                            Through U.S. Prisons: Watchdogs</a>
-                                        <p class="more-stories__details">Over-crowded and understaffed prison facilities
-                                            offer a perfect environment for COVID-19 to spread quickly, with potentially
-                                            devastating results.</p>
-                                    </div>
-                                </article>
-                                <hr>
+                                    <article class="more-stories-item d-flex">
+                                        <h6 class="d-none">d-none</h6>
+                                        <a href="#"><img
+                                                src="https://d.newsweek.com/en/full/1574805/coronavirus-test-doctors-prisons-inmates-detainees-spread.webp?w=95&h=95&f=608e5c918d5d62facd43a0ffc7549a6c"
+                                                alt="more-stories-img"></a>
+                                        <div class="more-stories__desc">
+                                            <a href="#" class="more-stories__title">Coronavirus Could Spread 'Like
+                                                Wildfire'
+                                                Through U.S. Prisons: Watchdogs</a>
+                                            <p class="more-stories__details">Over-crowded and understaffed prison
+                                                facilities
+                                                offer a perfect environment for COVID-19 to spread quickly, with
+                                                potentially
+                                                devastating results.</p>
+                                        </div>
+                                    </article>
+                                    <hr>
 
-                                <article class="more-stories-item d-flex">
-                                    <h6 class="d-none">d-none</h6>
-                                    <a href="#"><img
-                                            src="https://d.newsweek.com/en/full/1574775/italy-hospital.webp?w=95&h=95&f=ab3943f8d7d3d4e9507310043d929a02"
-                                            alt="more-stories-img"></a>
-                                    <div class="more-stories__desc">
-                                        <a href="#" class="more-stories__title">Med School Graduates in Italy Skip Final
-                                            Exam to Fight COVID-19</a>
-                                        <p class="more-stories__details">The government hopes the move will help ease
-                                            hospitals and medical staff who have been pushed to the limit by the
-                                            pandemic in Europe's worst affected country.</p>
-                                    </div>
-                                </article>
-                                <hr>
+                                    <article class="more-stories-item d-flex">
+                                        <h6 class="d-none">d-none</h6>
+                                        <a href="#"><img
+                                                src="https://d.newsweek.com/en/full/1574775/italy-hospital.webp?w=95&h=95&f=ab3943f8d7d3d4e9507310043d929a02"
+                                                alt="more-stories-img"></a>
+                                        <div class="more-stories__desc">
+                                            <a href="#" class="more-stories__title">Med School Graduates in Italy Skip
+                                                Final
+                                                Exam to Fight COVID-19</a>
+                                            <p class="more-stories__details">The government hopes the move will help
+                                                ease
+                                                hospitals and medical staff who have been pushed to the limit by the
+                                                pandemic in Europe's worst affected country.</p>
+                                        </div>
+                                    </article>
+                                    <hr>
 
-                                <article class="more-stories-item d-flex">
-                                    <h6 class="d-none">d-none</h6>
-                                    <a href="#"><img
-                                            src="https://d.newsweek.com/en/full/1574655/donald-trump-coronavirus-china-blame-game-spread.webp?w=95&h=95&f=f416f394f85fe8a2d59c340dce74b27d"
-                                            alt="more-stories-img"></a>
-                                    <div class="more-stories__desc">
-                                        <a href="#" class="more-stories__title">China State Media Says Trump Is
-                                            'Pandering' to Racists Over Coronavirus</a>
-                                        <p class="more-stories__details">The president has engaged in a spat with
-                                            Beijing over who is to blame for the pandemic, which has now spread to all
-                                            50 U.S. states.</p>
-                                    </div>
-                                </article>
+                                    <article class="more-stories-item d-flex">
+                                        <h6 class="d-none">d-none</h6>
+                                        <a href="#"><img
+                                                src="https://d.newsweek.com/en/full/1574655/donald-trump-coronavirus-china-blame-game-spread.webp?w=95&h=95&f=f416f394f85fe8a2d59c340dce74b27d"
+                                                alt="more-stories-img"></a>
+                                        <div class="more-stories__desc">
+                                            <a href="#" class="more-stories__title">China State Media Says Trump Is
+                                                'Pandering' to Racists Over Coronavirus</a>
+                                            <p class="more-stories__details">The president has engaged in a spat with
+                                                Beijing over who is to blame for the pandemic, which has now spread to
+                                                all
+                                                50 U.S. states.</p>
+                                        </div>
+                                    </article>
+                                <!-- </div> -->
+
                             </div>
 
                         </section>
@@ -493,6 +504,7 @@
                                     </div>
                                 </article>
 
+                                <!-- <div class="featured-stories-items__crollable overflow-auto w-100 vh-100"> -->
                                 <article class="featured-stories-item mt-3">
                                     <h6 class="d-none">d-none</h6>
                                     <div class="pos-rel">
@@ -506,7 +518,8 @@
                                         <a href="#" class="featured-stories__title card-title">Newsweek James Bond
                                             Special
                                             Edition</a>
-                                        <p class="featured-stories__details card-text">Agent 007 claimed a spot as the
+                                        <p class="featured-stories__details card-text">Agent 007 claimed a spot as
+                                            the
                                             world’s
                                             coolest spy since Sean Connery brought him to life on the big screen.
                                             Explore Bond’s legacy with the Newsweek Special Edition, featuring
@@ -525,16 +538,20 @@
                                         <span class="caption d-none">us</span>
                                     </div>
                                     <div class="card card-body rounded-0">
-                                        <a href="#" class="featured-stories__title card-title">Newsweek AMPLIFY Launches
+                                        <a href="#" class="featured-stories__title card-title">Newsweek AMPLIFY
+                                            Launches
                                             Strategic
                                             Partnership Solutions for Brands</a>
-                                        <p class="featured-stories__details card-text">Newsweek AMPLIFY, the company's
+                                        <p class="featured-stories__details card-text">Newsweek AMPLIFY, the
+                                            company's
                                             independent
                                             business unit, has launched a new program to empower digital brands with
                                             comprehensive content marketing and advertising strategies.</p>
                                     </div>
 
                                 </article>
+                                <!-- </div> -->
+
                             </div>
                         </section>
                     </section>
@@ -637,7 +654,7 @@
                             <h6 class="text-left text-uppercase font-weight-bolder gray-color">latest news</h6>
 
                             <div class="latest-news__wrapper container-xl p-0">
-                                <article class="latest-news-item d-flex">
+                                <article class="latest-news-item lt-fix d-flex">
                                     <h6 class="d-none">d-none</h6>
                                     <a href="#"><img
                                             src="https://d.newsweek.com/en/full/1575079/child-care-services-coronavirus.webp?w=95&h=95&f=b1e113a7156cbb78f9cb7513c014bcf2"
@@ -646,7 +663,7 @@
                                         Workers During Coronavirus</a>
                                 </article>
 
-                                <article class="latest-news-item d-flex my-2">
+                                <article class="latest-news-item lt-fix d-flex my-2">
                                     <h6 class="d-none">d-none</h6>
                                     <a href="#"><img
                                             src="https://d.newsweek.com/en/full/1575113/coronavirus-restaruant.webp?w=95&h=95&f=230b16c22ef6422f4bbf48776b881dd8"
@@ -655,79 +672,82 @@
                                         Better Ask Parents to Pay Rent</a>
                                 </article>
 
-                                <div class="d-flex flex-column align-self-center">
-                                    <article class="latest-news-item">
-                                        <h6 class="d-none">d-none</h6>
-                                        <div class="pos-rel">
-                                            <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1573761/ftx-trump.webp?w=790&f=aa1d031ee3a34798b4b414391c6ac077"
-                                                    alt="latest-news">
-                                            </a>
-                                            <span class="caption-blue caption-top">sponsored insight</span>
-                                        </div>
-                                        <div class="card card-body rounded-0">
-                                            <a href="#" class="featured-stories__title card-title">We all know Trump
-                                                will
-                                                win, why not bet on it?</a>
-                                            <p class="featured-stories__details card-text">If you believe that you can
-                                                predict the 2020 US Election, FTX, a Hong-Kong based company that
-                                                imposed
-                                                itself as a leading cryptocurrency trading platform, has released an
-                                                innovative product that can turn your political expertise into cash.
-                                            </p>
-                                        </div>
-                                    </article>
 
-                                    <div class="card m-4 gray-bg">
-                                        <div class="card-body text-center">
-                                            <h5 class="card-title mb-3">SIGN UP FOR OUR NEWSLETTER</h5>
-                                            <a href="#"
-                                                class="btn-template border  bg-secondary text-white p-2 rounded text-uppercase">sign
-                                                up ></a>
-                                            <small class="d-block mt-2 py-2">Update your preferences »</small>
-                                        </div>
+                                <article class="latest-news-item">
+                                    <h6 class="d-none">d-none</h6>
+                                    <div class="pos-rel">
+                                        <a href="#">
+                                            <img src="https://d.newsweek.com/en/full/1573761/ftx-trump.webp?w=790&f=aa1d031ee3a34798b4b414391c6ac077"
+                                                alt="latest-news">
+                                        </a>
+                                        <span class="caption-blue caption-top">sponsored insight</span>
                                     </div>
+                                    <div class="card card-body rounded-0">
+                                        <a href="#" class="featured-stories__title card-title">We all know Trump
+                                            will
+                                            win, why not bet on it?</a>
+                                        <p class="featured-stories__details card-text">If you believe that you can
+                                            predict the 2020 US Election, FTX, a Hong-Kong based company that
+                                            imposed
+                                            itself as a leading cryptocurrency trading platform, has released an
+                                            innovative product that can turn your political expertise into cash.
+                                        </p>
+                                    </div>
+                                </article>
 
-                                    <article class="latest-news-item">
-                                        <h6 class="d-none">d-none</h6>
-                                        <div class="pos-rel">
-                                            <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1563365/american-heritage-school.webp?w=737&f=6cb1d57673f729816609e40635ddfff1"
-                                                    alt="latest-news">
-                                            </a>
-                                            <span class="caption-blue caption">sponsored insight</span>
-                                        </div>
-                                        <div class="card card-body rounded-0">
-                                            <a href="#" class="featured-stories__title card-title">What Can A Private
-                                                Education Do For Your Child?</a>
-                                            <p class="featured-stories__details card-text">What is the single most
-                                                consequential choice you make to give your child the best possible
-                                                advantage
-                                                in life? If you think it’s education, read on.
-                                            </p>
-                                        </div>
-                                    </article>
-
-                                    <article class="latest-news-item mt-4">
-                                        <h6 class="d-none">d-none</h6>
-                                        <div class="pos-rel">
-                                            <a href="#">
-                                                <img src="https://d.newsweek.com/en/full/1568888/worlds-best-hospital-2020.jpg?w=1310&q=95&f=b20f73c0fbb051c21042db029c2c930b"
-                                                    alt="latest-news">
-                                            </a>
-                                            <span class="caption-blue caption d-none">sponsored insight</span>
-                                        </div>
-                                        <div class="card card-body rounded-0">
-                                            <a href="#" class="featured-stories__title card-title">World's Best
-                                                Hospitals
-                                                2020</a>
-                                            <p class="featured-stories__details card-text">Newsweek partnered with
-                                                Statista
-                                                Inc. to rank the leading hospitals in 21 countries
-                                            </p>
-                                        </div>
-                                    </article>
+                                <div class="card m-4 gray-bg">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title mb-3">SIGN UP FOR OUR NEWSLETTER</h5>
+                                        <a href="#"
+                                            class="btn-template border  bg-secondary text-white p-2 rounded text-uppercase">sign
+                                            up ></a>
+                                        <small class="d-block mt-2 py-2">Update your preferences »</small>
+                                    </div>
                                 </div>
+
+                                <!-- <div class="opinion-items__scrollable overflow-auto w-100 h-100"> -->
+                                <article class="latest-news-item">
+                                    <h6 class="d-none">d-none</h6>
+                                    <div class="pos-rel">
+                                        <a href="#">
+                                            <img src="https://d.newsweek.com/en/full/1563365/american-heritage-school.webp?w=737&f=6cb1d57673f729816609e40635ddfff1"
+                                                alt="latest-news">
+                                        </a>
+                                        <span class="caption-blue caption">sponsored insight</span>
+                                    </div>
+                                    <div class="card card-body rounded-0">
+                                        <a href="#" class="featured-stories__title card-title">What Can A
+                                            Private
+                                            Education Do For Your Child?</a>
+                                        <p class="featured-stories__details card-text">What is the single most
+                                            consequential choice you make to give your child the best possible
+                                            advantage
+                                            in life? If you think it’s education, read on.
+                                        </p>
+                                    </div>
+                                </article>
+
+                                <article class="latest-news-item mt-4">
+                                    <h6 class="d-none">d-none</h6>
+                                    <div class="pos-rel">
+                                        <a href="#">
+                                            <img src="https://d.newsweek.com/en/full/1568888/worlds-best-hospital-2020.jpg?w=1310&q=95&f=b20f73c0fbb051c21042db029c2c930b"
+                                                alt="latest-news">
+                                        </a>
+                                        <span class="caption-blue caption d-none">sponsored insight</span>
+                                    </div>
+                                    <div class="card card-body rounded-0">
+                                        <a href="#" class="featured-stories__title card-title">World's Best
+                                            Hospitals
+                                            2020</a>
+                                        <p class="featured-stories__details card-text">Newsweek partnered with
+                                            Statista
+                                            Inc. to rank the leading hospitals in 21 countries
+                                        </p>
+                                    </div>
+                                </article>
+
+                                <!-- </div> -->
 
                             </div>
                         </section>
@@ -1402,7 +1422,8 @@
                                         About Topics You Want to Read!</h4>
                                     <p class="card-text sub-text">All Access + Weekly Delivery. <br>
                                         Choose A Membership That's Perfect for You!</p>
-                                    <a href="#" class="btn-template red-bg text-uppercase text-white p-2">subscribe
+                                    <a href="#"
+                                        class="btn-template red-bg font-weight-bold text-uppercase text-white p-2">subscribe
                                         ></a>
                                 </div>
                             </div>
@@ -1416,13 +1437,13 @@
                                 <a href="#"><img
                                         src="https://d.newsweek.com/en/full/1575613/kaiser-permanente-opens-drive-thru-coronavirus-testing-station-san-francisco.webp?w=397&h=265&f=4abdbb2e4118e4d8dd2d6530fefe7295"
                                         alt=""></a>
-                                <div class="newsletter_div__details card-body">
-                                    <h4 class="card-title font-weight-bolder">The Starting 5</h4>
-                                    <p class="card-text news-text">Take back your inbox. Sign up for our newsletter and
+                                <div class="newsletter_div__details p-3">
+                                    <h4 class="font-weight-bolder">The Starting 5</h4>
+                                    <p class="news-text">Take back your inbox. Sign up for our newsletter and
                                         start
                                         making sense of the world around you.</p>
                                     <a href="#"
-                                        class="btn-template red-bg text-uppercase text-center mx-md-auto text-white p-md-2">sign
+                                        class="btn-template red-bg text-uppercase font-weight-bold text-center mx-md-auto text-white p-md-2 ">sign
                                         up ></a>
                                 </div>
                             </div>
@@ -1434,7 +1455,7 @@
 
                 <div class="footer-infos pb-5 mt-4">
                     <div class="footer-infos_wrapper p-2">
-                        <div class="footer-top-links d-md-flex flex-wrap pt-3 pl-2">
+                        <div class="footer-top-links d-md-flex flex-fill pt-3 pl-2">
                             <div class="marq d-md-flex align-items-end justify-content-start">
                                 <a href="#">
                                     <svg class="logo-footer" version="1.1" id="Layer_3"
@@ -1451,14 +1472,17 @@
                                 <small class="d-block py-2 gray-color">&copy;2020 NEWSWEEK</small>
                             </div>
 
-                            <div class="socials-icons d-flex justify-content-sm-end align-items-end py-xs-2">
-                                <span><a class="gray-color pr-2 p-md-2" href="#"><i
+                            <div class="socials-icons d-flex justify-content-sm-end align-items-end py-xs-3">
+                                <span><a class="gray-color pr-2 p-md-2 fb" href="#"><i
                                             class="fa fa-facebook-square fa-lg"></i></a></span>
-                                <span><a class="gray-color p-2" href="#"><i class="fa fa-twitter fa-lg"></i></a></span>
-                                <span><a class="gray-color p-2" href="#"><i
+                                <span><a class="gray-color p-2 twitter" href="#"><i
+                                            class="fa fa-twitter fa-lg"></i></a></span>
+                                <span><a class="gray-color p-2 insta" href="#"><i
                                             class="fa fa-instagram fa-lg"></i></a></span>
-                                <span><a class="gray-color p-2" href="#"><i class="fa fa-tumblr fa-lg"></i></a></span>
-                                <span><a class="gray-color p-2" href="#"><i class="fa fa-linkedin fa-lg"></i></a></span>
+                                <span><a class="gray-color p-2 tumblr" href="#"><i
+                                            class="fa fa-tumblr fa-lg"></i></a></span>
+                                <span><a class="gray-color p-2 linkdin" href="#"><i
+                                            class="fa fa-linkedin fa-lg"></i></a></span>
                             </div>
                         </div>
 
