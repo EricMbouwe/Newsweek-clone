@@ -523,11 +523,6 @@ img {
     position: sticky;
     top: 0;
   }
-  
-  .featured-stories__wrapper {
-    position: sticky;
-    top: 33em;
-  }
 
   .services-links span {
     padding: 0 0.5em;
