@@ -13,9 +13,9 @@
 
 <body>
 
-    <header class="header-mobile-hidden container-fluid p-1 d-lg-none fixed-top">
+    <header class="header-mobile-hidden container-fluid p-2 d-lg-none fixed-top">
 
-        <nav class="navbar navbar-expand-lg px-0 py-1 navbar-light ">
+        <nav class="navbar navbar-expand-lg px-0 py-1 navbar-light align-items-end">
             <a class="nav-marq ml-2 mr-0 mx-md-0 pl-md-4" href="#">
                 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
@@ -28,9 +28,9 @@
                 </svg>
             </a>
 
-            <div class="weather px-1">
-                <span class="cloud d-xs-inline text-right p-0"><a href="#"><i class="fa fa-cloud mx-2"></i>27°</a></span>
-                <span class="city d-none d-md-inline"><a href="#">Douala, CM ></a></span>
+            <div class="weather">
+                <span class="cloud d-xs-inline p-0"><a href="#"><i class="fa fa-cloud mx-2"></i>27°</a></span>
+                <span class="city d-none d-md-inline"><a href="#">Douala, CM></a></span>
             </div>
 
             <div class="navbar-middle-items mx-0 text-right">
@@ -46,7 +46,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto p-3 text-left">
                     <li class="form-inline p-0 m-0">
-                        <input class="form-control m-0 p-0 text-light" type="search" placeholder="Search.." aria-label="Search">
+                        <input class="form-control m-0 p-0" type="search" placeholder="Search.." aria-label="Search">
                         <i class="fa fa-search"></i>
                     </li>
                     <li><a class="nav-link" href="#">U.S.</a></li>
@@ -318,7 +318,8 @@
                                 </article>
                                 <hr>
 
-                                <article class="more-stories-item d-flex">
+                                <!-- <div class=" more-stories-items__fixed overflow-hidden w-100 vh-100"> -->
+                                <article class="more-stories-item d-flex pos-sticky">
                                     <h6 class="d-none">d-none</h6>
                                     <a href="#"><img
                                             src="https://d.newsweek.com/en/full/1574641/florida-primaries.webp?w=95&h=95&l=0&t=0&f=a1f014efe051e9b45b92671b98083b26"
@@ -333,73 +334,72 @@
                                 </article>
                                 <hr>
 
-                                <!-- <div class=" more-stories-items__fixed overflow-hidden w-100 vh-100"> -->
-                                    <article class="more-stories-item d-flex">
-                                        <h6 class="d-none">d-none</h6>
-                                        <a href="#"><img
-                                                src="https://d.newsweek.com/en/full/1574675/coronavirus-covid-19-doctor-getty.webp?w=95&h=95&f=8cd8eb04e7cf2b1df21e664f61e3276a"
-                                                alt="more-stories-img"></a>
-                                        <div class="more-stories__desc">
-                                            <a href="#" class="more-stories__title">Coronavirus Did Not Originate in a
-                                                Lab,
-                                                Scientists Say</a>
-                                            <p class="more-stories__details">The study ends "any speculation about
-                                                deliberate genetic engineering," said Josie Golding, epidemics lead at
-                                                the
-                                                Wellcome Trust.</p>
-                                        </div>
-                                    </article>
-                                    <hr>
+                                <article class="more-stories-item d-flex">
+                                    <h6 class="d-none">d-none</h6>
+                                    <a href="#"><img
+                                            src="https://d.newsweek.com/en/full/1574675/coronavirus-covid-19-doctor-getty.webp?w=95&h=95&f=8cd8eb04e7cf2b1df21e664f61e3276a"
+                                            alt="more-stories-img"></a>
+                                    <div class="more-stories__desc">
+                                        <a href="#" class="more-stories__title">Coronavirus Did Not Originate in a
+                                            Lab,
+                                            Scientists Say</a>
+                                        <p class="more-stories__details">The study ends "any speculation about
+                                            deliberate genetic engineering," said Josie Golding, epidemics lead at
+                                            the
+                                            Wellcome Trust.</p>
+                                    </div>
+                                </article>
+                                <hr>
 
-                                    <article class="more-stories-item d-flex">
-                                        <h6 class="d-none">d-none</h6>
-                                        <a href="#"><img
-                                                src="https://d.newsweek.com/en/full/1574805/coronavirus-test-doctors-prisons-inmates-detainees-spread.webp?w=95&h=95&f=608e5c918d5d62facd43a0ffc7549a6c"
-                                                alt="more-stories-img"></a>
-                                        <div class="more-stories__desc">
-                                            <a href="#" class="more-stories__title">Coronavirus Could Spread 'Like
-                                                Wildfire'
-                                                Through U.S. Prisons: Watchdogs</a>
-                                            <p class="more-stories__details">Over-crowded and understaffed prison
-                                                facilities
-                                                offer a perfect environment for COVID-19 to spread quickly, with
-                                                potentially
-                                                devastating results.</p>
-                                        </div>
-                                    </article>
-                                    <hr>
+                                <article class="more-stories-item d-flex">
+                                    <h6 class="d-none">d-none</h6>
+                                    <a href="#"><img
+                                            src="https://d.newsweek.com/en/full/1574805/coronavirus-test-doctors-prisons-inmates-detainees-spread.webp?w=95&h=95&f=608e5c918d5d62facd43a0ffc7549a6c"
+                                            alt="more-stories-img"></a>
+                                    <div class="more-stories__desc">
+                                        <a href="#" class="more-stories__title">Coronavirus Could Spread 'Like
+                                            Wildfire'
+                                            Through U.S. Prisons: Watchdogs</a>
+                                        <p class="more-stories__details">Over-crowded and understaffed prison
+                                            facilities
+                                            offer a perfect environment for COVID-19 to spread quickly, with
+                                            potentially
+                                            devastating results.</p>
+                                    </div>
+                                </article>
+                                <hr>
 
-                                    <article class="more-stories-item d-flex">
-                                        <h6 class="d-none">d-none</h6>
-                                        <a href="#"><img
-                                                src="https://d.newsweek.com/en/full/1574775/italy-hospital.webp?w=95&h=95&f=ab3943f8d7d3d4e9507310043d929a02"
-                                                alt="more-stories-img"></a>
-                                        <div class="more-stories__desc">
-                                            <a href="#" class="more-stories__title">Med School Graduates in Italy Skip
-                                                Final
-                                                Exam to Fight COVID-19</a>
-                                            <p class="more-stories__details">The government hopes the move will help
-                                                ease
-                                                hospitals and medical staff who have been pushed to the limit by the
-                                                pandemic in Europe's worst affected country.</p>
-                                        </div>
-                                    </article>
-                                    <hr>
+                                <article class="more-stories-item d-flex">
+                                    <h6 class="d-none">d-none</h6>
+                                    <a href="#"><img
+                                            src="https://d.newsweek.com/en/full/1574775/italy-hospital.webp?w=95&h=95&f=ab3943f8d7d3d4e9507310043d929a02"
+                                            alt="more-stories-img"></a>
+                                    <div class="more-stories__desc">
+                                        <a href="#" class="more-stories__title">Med School Graduates in Italy Skip
+                                            Final
+                                            Exam to Fight COVID-19</a>
+                                        <p class="more-stories__details">The government hopes the move will help
+                                            ease
+                                            hospitals and medical staff who have been pushed to the limit by the
+                                            pandemic in Europe's worst affected country.</p>
+                                    </div>
+                                </article>
+                                <hr>
 
-                                    <article class="more-stories-item d-flex">
-                                        <h6 class="d-none">d-none</h6>
-                                        <a href="#"><img
-                                                src="https://d.newsweek.com/en/full/1574655/donald-trump-coronavirus-china-blame-game-spread.webp?w=95&h=95&f=f416f394f85fe8a2d59c340dce74b27d"
-                                                alt="more-stories-img"></a>
-                                        <div class="more-stories__desc">
-                                            <a href="#" class="more-stories__title">China State Media Says Trump Is
-                                                'Pandering' to Racists Over Coronavirus</a>
-                                            <p class="more-stories__details">The president has engaged in a spat with
-                                                Beijing over who is to blame for the pandemic, which has now spread to
-                                                all
-                                                50 U.S. states.</p>
-                                        </div>
-                                    </article>
+                                <article class="more-stories-item d-flex">
+                                    <h6 class="d-none">d-none</h6>
+                                    <a href="#"><img
+                                            src="https://d.newsweek.com/en/full/1574655/donald-trump-coronavirus-china-blame-game-spread.webp?w=95&h=95&f=f416f394f85fe8a2d59c340dce74b27d"
+                                            alt="more-stories-img"></a>
+                                    <div class="more-stories__desc">
+                                        <a href="#" class="more-stories__title">China State Media Says Trump Is
+                                            'Pandering' to Racists Over Coronavirus</a>
+                                        <p class="more-stories__details">The president has engaged in a spat with
+                                            Beijing over who is to blame for the pandemic, which has now spread to
+                                            all
+                                            50 U.S. states.</p>
+                                    </div>
+                                </article>
                                 <!-- </div> -->
 
                             </div>

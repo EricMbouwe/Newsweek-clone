@@ -71,8 +71,7 @@ img {
 }
 
 .navbar svg {
-  width: 100%;
-  height: 100%;
+  width: 140%;
   max-width: 170px;
   fill: #fff;
 }
@@ -88,6 +87,10 @@ img {
 .navbar-middle-items {
   flex: 2;
   padding-right: 0.2em;
+}
+
+.navbar .weather a:hover {
+  color: white !important;
 }
 
 .navbar .weather {
@@ -115,6 +118,16 @@ img {
 
 .btn-template:hover {
   color: #de1f0e;
+}
+
+.pos-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.featured-stories__wrapper {
+  position: sticky;
+  top: 500px;
 }
 
 .newsletter_div__details a:hover,
@@ -153,10 +166,6 @@ img {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.navbar-nav {
-  background-color: #5a060623;
-}
-
 .navbar-nav .nav-link {
   color: #fff !important;
   font-weight: 500;
@@ -169,22 +178,23 @@ img {
 .navbar-nav .form-inline i {
   position: absolute;
   left: 12.5em;
-  color: #f72210;
+  color: #5a060623;
 }
 
 .navbar-nav .form-control {
   outline: none;
   box-shadow: none;
   border: none;
-  border-bottom: 2px solid #f72210;
+  border-bottom: 2px solid #5a060623;
   width: 200px;
   background-color: inherit;
+  color: #5a0606fd;
 }
 
 .site-content {
   background-color: #fff;
   padding: 1.5em 0 0 0;
-  margin-top: 3.4em;
+  margin-top: 2.5em;
 }
 
 .pos-rel {
@@ -267,7 +277,7 @@ img {
 .lt-fix img,
 .opinion-item img {
   max-width: 95px;
-  max-height: 90px;
+  max-height: 95px;
 }
 
 .section-4 h3 {
