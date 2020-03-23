@@ -20,7 +20,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Link](https://rawcdn.githack.com/EricMbouwe/Newsweek-clone/9aec77f0018774a497b530a3a9a48bb81954ddf8/index.html)
+[Live Link](https://rawcdn.githack.com/EricMbouwe/Newsweek-clone/c2699226a27a68898b9affb0f983d9a9500067a8/index.html)
 
 ## Getting Started
 
