@@ -89,15 +89,6 @@ img {
   padding-right: 0.2em;
 }
 
-.navbar .weather a:hover {
-  color: white !important;
-}
-
-.navbar .weather {
-  flex: 1;
-  text-align: right;
-}
-
 .navbar-md-item a {
   width: 50%;
   max-width: 40px;
@@ -110,9 +101,22 @@ img {
   flex: 1;
 }
 
-
 .navbar-md-item a:hover {
   color: rgba(0, 0, 0, 0.459);
+}
+
+.newsletter_div__details a:hover,
+.subscribe_div__details a:hover {
+  background-color: #de1f0e !important;
+}
+
+.navbar .weather a:hover {
+  color: white !important;
+}
+
+.navbar .weather {
+  flex: 1;
+  text-align: right;
 }
 
 .btn-template {
@@ -123,11 +127,6 @@ img {
 
 .btn-template:hover {
   color: #de1f0e;
-}
-
-.newsletter_div__details a:hover,
-.subscribe_div__details a:hover {
-  background-color: #de1f0e !important;
 }
 
 .fb:hover {
