@@ -390,6 +390,13 @@ img {
   color: rgba(0, 0, 0, 0.932);
 }
 
+@media screen and (min-width: 768px) {
+  .pos-sticky {
+    position: sticky;
+    top: 0;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .header-desktop-hidden {
     margin-bottom: 2px;
@@ -477,7 +484,7 @@ img {
 
   .navbar-lg .navbar-links {
     justify-content: start;
-    font-size: 1.2vw;
+    font-size: 1em;
   }
 
   .navbar-links li {
